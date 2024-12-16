@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.products,
+.cart {
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart-total {
+    font-weight: bold;
+}
+
+.clear-cart {
+    margin-top: 10px;
+}
+
+.cart-items li {
+    margin-bottom: 10px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around   ;
+}
+.cartimg{
+    height: 30px;
+}
